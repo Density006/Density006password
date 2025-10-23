@@ -8,8 +8,10 @@ export const config = {
 // 1. Define your redirect URLs
 // ---
 const DEFAULT_REDIRECT_URL = 'https://sites.google.com/studio.digital/multitool/Hw2'
-const DENSITY_REDIRECT_URL = '/density-special-page' // A relative path
+const DENSITY_REDIRECT_URL = 'https://sites.google.com/studio.digital/multitool/Admin' // A relative path
 const ETHAN_REDIRECT_URL = 'https://ethans-page.com'   // An external site
+const ADMIN_REDIRECT_URL = 'https://vercel.com/density006'
+const DISALLOWED_REDIRECT_URL = 'https://sites.google.com/studio.digital/hmmm/home'
 
 // ---
 // 2. Store credentials and their unique redirect URLs together.
@@ -24,6 +26,8 @@ const validCredentials = new Map([
 
   // User: Jimmy -> Default Page (no 'redirect' property)
   ['Jimmy', { pwd: 'germanleader' }],
+  ['4dmin', { pwd: 'NATE', redirect: ADMIN_REDIRECT_URL }],
+  ['Duke', { pwd: 'danby', redirect: DISALLOWED_REDIRECT_URL }],
   
   // ---
   // Add as many users as you want here:
