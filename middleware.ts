@@ -22,7 +22,7 @@ const validCredentials = new Map([
   ['Density006', { pwd: 'dense', redirect: DENSITY_REDIRECT_URL }],
   
   // User: Ethan -> Special Page
-  ['Ethan', { pwd: 'ethan', redirect: ETHAN_REDIRECT_URL }],
+  ['Ethan', { pwd: 'ethan' }],
 
   // User: Jimmy -> Default Page (no 'redirect' property)
   ['Jimmy', { pwd: 'germanleader' }],
