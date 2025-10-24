@@ -26,6 +26,7 @@ const validCredentials = new Map([
 
   // User: Jimmy -> Default Page (no 'redirect' property)
   ['Jimmy', { pwd: 'germanleader' }],
+  ['Jamesmann', { pwd: 'wisehelp88' }],
   ['4dmin', { pwd: 'NATE', redirect: ADMIN_REDIRECT_URL }],
   ['Duke', { pwd: 'danby', redirect: DISALLOWED_REDIRECT_URL }],
   
