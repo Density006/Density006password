@@ -12,6 +12,7 @@ const DENSITY_REDIRECT_URL = 'https://sites.google.com/studio.digital/multitool/
 const ETHAN_REDIRECT_URL = 'https://ethans-page.com'   // An external site
 const ADMIN_REDIRECT_URL = 'https://vercel.com/density006'
 const DISALLOWED_REDIRECT_URL = 'https://sites.google.com/studio.digital/hmmm/home'
+const Github = 'https://github.com/Density006/Density006password'
 
 // ---
 // 2. Store credentials and their unique redirect URLs together.
@@ -29,6 +30,7 @@ const validCredentials = new Map([
   ['Jamesmann', { pwd: 'wisehelp88' }],
   ['4dmin', { pwd: 'NATE', redirect: ADMIN_REDIRECT_URL }],
   ['Duke', { pwd: 'danby', redirect: DISALLOWED_REDIRECT_URL }],
+  ['add user', { pwd: '', redirect: Github }]
   
   // ---
   // Add as many users as you want here:
